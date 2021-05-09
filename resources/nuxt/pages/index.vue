@@ -2,9 +2,9 @@
     <div class="container">
         <div>
             <Logo />
-            <h1 class="title">Laravel-nuxt-bs</h1>
+            <h1 class="title">Laravel-nuxt</h1>
             <h2 class="subtitle">
-                Laravel 7 + Nuxt + Bootstrap-vue
+                Laravel 8 + Sanctum + Fortify + Nuxt + Bootstrap-vue
             </h2>
             <b-button variant="primary" class="text-white" to="/login" nuxt>
                 <span v-if="$auth.user">Welcome {{ $auth.user.name }}!</span>
